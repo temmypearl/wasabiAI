@@ -1,8 +1,8 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/home ";
-import Submit from "./pages/Submit";
-import Gallery from "./pages/Gallery";
+import Submit from "./pages/submit";
+import Gallery from "./pages/gallery";
 
 function App() {
   return (

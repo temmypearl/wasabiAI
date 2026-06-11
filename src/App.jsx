@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/home ";
-import SubmitProject from "./pages/Submit";
+import Submit from "./pages/Submit";
 import Gallery from "./pages/Gallery";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/submit" element={<SubmitProject />} />
+        <Route path="/submit" element={<Submit/>} />
 
         {/* Redirect unknown routes */}
         <Route path="*" element={<Navigate to="/" replace />} />

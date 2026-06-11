@@ -1,6 +1,6 @@
 import{ useState } from "react";
 
-const SubmitProject = () => {
+const Submit = () => {
   // Form & UI States
   const [formData, setFormData] = useState({
     name: "",
@@ -238,4 +238,4 @@ const SubmitProject = () => {
   );
 };
 
-export default SubmitProject;
+export default Submit;
